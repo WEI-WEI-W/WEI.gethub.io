@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    var a,b,c,n;
+    for(n=100;n<=999;n++)
+    {
+        a=n%10;
+        b=n%100/10;
+        b=parseInt(b);
+        c=n/100;
+        c=parseInt(c);
+        if (n==a*a*a+b*b*b+c*c*c)
+        {
+            document.write("水仙花数有："+n);
+        }
+    }
+</script>
+</body>
+</html>
